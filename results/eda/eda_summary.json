@@ -1,0 +1,82 @@
+{
+  "n_labelled": 4200,
+  "n_zindi_test": 1800,
+  "n_classes": 12,
+  "classes": [
+    "hapana",
+    "kumi",
+    "mbili",
+    "moja",
+    "nane",
+    "ndio",
+    "nne",
+    "saba",
+    "sita",
+    "tano",
+    "tatu",
+    "tisa"
+  ],
+  "split_sizes": {
+    "train": 3359,
+    "val": 421,
+    "test": 420
+  },
+  "class_counts": {
+    "hapana": 350,
+    "kumi": 350,
+    "mbili": 350,
+    "moja": 350,
+    "nane": 350,
+    "ndio": 350,
+    "nne": 350,
+    "saba": 350,
+    "sita": 350,
+    "tano": 350,
+    "tatu": 350,
+    "tisa": 350
+  },
+  "imbalance_ratio_max_min": 1.0,
+  "orig_sample_rates": {
+    "16000": 6000
+  },
+  "channels": {
+    "1": 6000
+  },
+  "duration_raw": {
+    "count": 4200.0,
+    "mean": 4.816552380952381,
+    "std": 3.3635424684759334,
+    "min": 2.48,
+    "5%": 3.2,
+    "50%": 4.32,
+    "95%": 7.299199999999983,
+    "99%": 11.844000000000086,
+    "max": 62.24
+  },
+  "duration_trimmed": {
+    "count": 4200.0,
+    "mean": 2.250167619047619,
+    "std": 3.391276038924419,
+    "min": 0.384,
+    "5%": 0.512,
+    "50%": 1.472,
+    "95%": 5.248,
+    "99%": 8.672160000000003,
+    "max": 62.208
+  },
+  "silence_ratio_median": 0.6556096794468887,
+  "suggested_max_seconds": 8.7,
+  "snr_median": 33.2797151565552,
+  "n_flagged": 125,
+  "frac_flagged": 0.02976190476190476,
+  "n_duplicate_files": 0,
+  "n_duplicate_groups_across_splits": 0,
+  "n_duplicate_groups_conflicting_labels": 0,
+  "most_similar_pairs": {
+    "sita / tisa": 0.865,
+    "hapana / tano": 0.678,
+    "mbili / ndio": 0.668,
+    "mbili / nne": 0.612,
+    "tano / tatu": 0.552
+  }
+}
