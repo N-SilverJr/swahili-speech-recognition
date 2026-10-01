@@ -1,0 +1,14 @@
+# torch / torchaudio are pre-installed on Google Colab; install them yourself when running locally.
+numpy
+pandas
+scipy
+scikit-learn>=1.3
+librosa>=0.10
+soundfile
+joblib
+tqdm
+matplotlib
+seaborn
+tabulate
+transformers>=4.40
+jupytext
